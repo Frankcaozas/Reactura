@@ -22,7 +22,7 @@ export default defineConfig({
     presetUno(),
     presetAttributify(),
     presetIcons({
-      scale: 1.8,
+      scale: 4.0,
       warn: true,
     }),
     presetWebFonts({

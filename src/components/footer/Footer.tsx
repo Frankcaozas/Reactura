@@ -1,5 +1,5 @@
 import { useDark } from '~/hooks/useDark';
-
+import './App.css'
 const footer = () => {
   const setDark = useDark()
   const toggleDark = () => {
@@ -17,7 +17,7 @@ const footer = () => {
         target="_blank"
         title="GitHub"
       />
-      <div i-twemoji-grinning-face-with-smiling-eyes hover:i-twemoji-face-with-tears-of-joy />
+      <div className='emoji' icon-btn/>
     </nav>
   )
 }
